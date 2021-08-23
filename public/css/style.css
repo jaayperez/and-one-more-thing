@@ -1,4 +1,3 @@
-/* UI Landing Page */
 * {
   margin: 0;
   text-decoration: none;
@@ -9,17 +8,6 @@ body {
   height: 100%;
   display: grid;
   place-items: center;
-  background-color: white;
-}
-
-.page-wrapper {
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-
-.divider {
-  color: black;
 }
 
 /* Nintendoid font from https://www.splintered.co.uk/experiments/132/ */
@@ -31,7 +19,6 @@ body {
 }
 
 h1, p {
-  /* background: #111; */
   padding: 1em;
   font-family: Nintendoid1;
   color: #eee;
@@ -55,7 +42,10 @@ h1, p {
   }
 }
 
-/* UI Designed by */
+/* .divider {
+  color: black;
+} */
+
 .designed-by-footer {
   color: #0d6efd;
   border-radius: 4px;
