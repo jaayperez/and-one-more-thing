@@ -1,0 +1,25 @@
+{
+  "name": "and-one-more-thing",
+  "version": "1.0.0",
+  "description": "And one more thing. This app does one little thing, and does it well.",
+  "engines": {
+  "node": "14.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "node",
+    "express",
+    "bootstrap"
+  ],
+  "author": "J. Perez",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
